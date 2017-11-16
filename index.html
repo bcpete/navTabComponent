@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css"></link>
+        <style type="text/css">
+            body {
+                padding-top: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root" class="container">
+
+            <navtabs>
+                <tab name="Thing one" :selected="true">
+                    <h1>Thing One</h1>
+                </tab>
+                <tab name="Thing two">
+                    <h1>Thing Two</h1>
+                </tab>
+                <tab name="Thing three">
+                    <h1>Thing Three</h1>
+                </tab>
+            </navtabs>
+        </div>
+
+        <script src="https://unpkg.com/vue@2.5.3/dist/vue.js"></script>
+        <script src="TabComponent.js"></script>
+    </body>
+</html>
